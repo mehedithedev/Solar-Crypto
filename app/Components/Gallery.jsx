@@ -13,6 +13,7 @@ import ten from '../Components/images/Galary/11.jpg';
 import eleven from '../Components/images/Galary/12.avif';
 import twelve from '../Components/images/Galary/13.avif';
 import thirteen from '../Components/images/Galary/1.avif';
+import fifteen from '../Components/images/Galary/15.jpg';
 const Gallery = () => {
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 m-20" style={{ marginTop: '20px', marginBottom: '20px' }}>
@@ -109,7 +110,7 @@ const Gallery = () => {
         </div>
         <div>
         <Image 
-            src={six}
+            src={fifteen}
             height={500}
             width={500}
             className="h-auto max-w-full rounded-lg"
