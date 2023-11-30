@@ -85,13 +85,7 @@ const About = () => {
           Solar-Crytpo is different
         </p>
         <p class="text-gray-500 dark:text-gray-400">
-          Solar Crypto is a revolutionary platform that harnesses the power of
-          solar energy to mine cryptocurrencies like Bitcoin. With our
-          innovative approach, we deliver great service experiences fast,
-          without the complexity of traditional ITSM solutions. Our mission is
-          to accelerate critical development work, eliminate toil, and deploy
-          changes with ease, all while ensuring a complete audit trail for every
-          change.
+        Welcome to Solar-Crypto, a pioneering platform revolutionizing cryptocurrency mining by harnessing solar energy to power operations, with a primary focus on mining Bitcoin. Our innovative approach ensures swift, user-friendly experiences, eliminating the complexities of traditional ITSM solutions. Committed to accelerating development and minimizing toil, Solar-Crypto automates tasks, enabling miners to concentrate on strategic decisions. Deploying changes is seamless, catering to both experienced miners and newcomers. Our platform prioritizes environmental sustainability, contributing to a greener crypto-mining ecosystem. With a transparent audit trail for every change, Solar-Crypto sets a new standard for integrity in the evolving world of digital currency. Celebrate one year of shaping a sustainable, efficient future with Solar-Crypto.
         </p>
       </div>
     </div>
