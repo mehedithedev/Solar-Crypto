@@ -29,7 +29,7 @@ const About = () => {
             December 19th, 2022
           </time>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            We made our crypto mining platform more secure and more reliable. We also added more miners and solar panels to our platform.
+            We made our crypto mining platform more secure and more reliable by adding multi-factor authentication, on top of that, increased number of miners and solar panels to our platform.
           </p>
           
       

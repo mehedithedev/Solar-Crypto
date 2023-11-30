@@ -1,21 +1,24 @@
 import React from "react";
 import Image from "next/image";
+import one from "../Components/images/1.jpg";
+import two from "../Components/images/2.jpg";
+import three from "../Components/images/3.jpg";
 const Carosoul = () => {
   return (
     <div>
+     
       <section>
         <div
           id="custom-controls-gallery"
           className="relative w-full m-20 align-middle bg-gray-100 rounded-lg shadow-xl sm:m-0 sm:rounded-none dark:bg-black"
           data-carousel="slide"
         >
-            <div className="relative h-72 overflow-hidden rounded-lg md:h-96">
+          <div className="relative h-72 overflow-hidden rounded-lg md:h-96">
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
               <Image
-                src="/Car1.jpg"
+                src= {one}
                 height={500}
                 width={500}
-                
                 className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                 alt=""
               />
@@ -24,28 +27,16 @@ const Carosoul = () => {
               className="hidden duration-700 ease-in-out"
               data-carousel-item="active"
             >
-              <Image
-                src={""}
-              
-                height={500}
-                width={500}
-
-              />
+              <Image src={one} height={500} width={500} alt="image"/>
             </div>
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
-              <Image
-
-              />
+              <Image src={three} height={500} width={500} alt="image"/>
             </div>
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
-              <Image
-
-              />
+              <Image src={two} height={500} width={500} alt="image"/>
             </div>
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
-              <Image
-
-              />
+              <Image src={three} height={500} width={500} alt="image"/>
             </div>
           </div>
           <div className="flex justify-center items-center pt-4">

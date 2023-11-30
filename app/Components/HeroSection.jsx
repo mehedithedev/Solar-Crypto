@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   const heading = "We mine crypto using solar energy";
-  const content = "Solar Crypto is a revolutionary platform that harnesses the power of solar energy to mine cryptocurrencies like Bitcoin. With our platform, you can mine Bitcoin without worrying about the cost of electricity. We use solar energy to power our mining rigs, which means you don't have to pay for electricity or worry about power outages. Our platform is also environmentally friendly because it doesn't emit any carbon dioxide into the atmosphere. You can start mining Bitcoin today with Solar Crypto!";
+  const content = "Solar Crypto is a revolutionary platform that harnesses the power of solar energy to mine cryptocurrencies like Bitcoin. With our platform, you can mine Bitcoin without worrying about the cost of electricity. ";
 
   return (
     <section className="bg-center bg-no-repeat bg-gray-500 bg-blend-multiply " style={{backgroundImage: "url('https://images.unsplash.com/photo-1609726494499-27d3e942456c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"}}>
