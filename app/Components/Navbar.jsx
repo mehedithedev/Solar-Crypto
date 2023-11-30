@@ -13,7 +13,7 @@ function Navbar() {
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
              
               <Link href="/">
-                <h2 className="text-2xl pb-3 text-cyan-600 font-bold ">SOLAR-CRYPTO</h2>
+                <h2 className="text-2xl pb-3 text-white-600 font-bold ">SOLAR-CRYPTO</h2>
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
