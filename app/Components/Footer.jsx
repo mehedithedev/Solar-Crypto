@@ -19,7 +19,7 @@ const Footer = () => {
                   <a href="#" className="hover:underline">Solar-Crypto</a>
                 </li>
                 <li>
-                  <a href="https://tailwindcss.com/" className="hover:underline">Furnace Miner</a>
+                  <a href="#" className="hover:underline">Furnace Miner</a>
                 </li>
               </ul>
             </div>

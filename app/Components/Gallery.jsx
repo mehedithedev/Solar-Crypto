@@ -19,11 +19,17 @@ const Gallery = () => {
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 m-20" style={{ marginTop: '20px', marginBottom: '20px' }}>
       <div className="grid gap-4">
         <div>
-          <img className="h-auto max-w-full rounded-lg" src={one} alt="" />
+        <Image 
+            src={nine}
+            height={500}
+            width={500}
+            className="h-auto max-w-full rounded-lg"
+            alt=""
+          />
         </div>
         <div>
         <Image 
-            src={nine}
+            src={eleven}
             height={500}
             width={500}
             className="h-auto max-w-full rounded-lg"

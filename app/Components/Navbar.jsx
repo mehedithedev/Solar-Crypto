@@ -18,18 +18,18 @@ function Navbar() {
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
                 <button
-                  className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                  className="p-4 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <Image src={hamburger} width={30} height={30} alt="logo" />
+                    <Image src={hamburger} width={30} height={30} alt="logo" className='pb-2' />
                   ) : (
                     <Image
                       src={hamburger}
                       width={30}
                       height={30}
                       alt="logo"
-                      className="focus:border-none active:border-none"
+                      className="focus:border-none active:border-none pb-2"
                     />
                   )}
                 </button>
