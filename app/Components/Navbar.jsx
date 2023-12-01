@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import hamburger from '../Components/images/hamburger.png'
+import logo from '../Components/images/SolarLogo.png'
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
@@ -13,12 +14,13 @@ function Navbar() {
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
              
               <Link href="/">
-                <h2 className="text-2xl pb-3 text-white-600 font-bold ">SOLAR-CRYPTO</h2>
+                <Image src = {logo} width={230} height={150} alt="logo" className='pb-2' />
+               
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
                 <button
-                  className="p-4 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                  className="p-3 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
